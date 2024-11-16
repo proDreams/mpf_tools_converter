@@ -17,9 +17,9 @@ def main(page: ft.Page):
         )
     )
 
-    page.window_width = 450
-    page.window_height = 350
-    page.window_resizable = False
+    page.window.width = 450
+    page.window.height = 350
+    page.window.resizable = False
     page.title = 'MPF Tools Converter'
     page.update()
 
